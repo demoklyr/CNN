@@ -2,3 +2,12 @@ data/
 data.zip
 .venv
 .idea
+competition-2026-fait-main
+.DS_Store
+.ipynb_checkpoints
+__pycache__
+*.pyc
+*.pkl
+*.h5
+*.pt
+*.log       
