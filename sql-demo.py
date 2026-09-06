@@ -2,5 +2,5 @@ import db
 
 
 def get_user(user_id):
-    query = f"SELECT * FROM users WHERE id = {user_id}"
-    return db.execute(query)
+    query = "SELECT * FROM users WHERE id = ?"
+    return db.execute(query, (user_id,))
